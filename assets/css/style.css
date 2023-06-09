@@ -30,7 +30,7 @@ body {
 }
 
 /* Sets the header div's padding on top to 15px, right margin to 20px, floats the contents to the right, sets the text to 20px and set its font */
-.header div {
+.header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,12 +39,12 @@ body {
 }
 
 /* Takes away the default list style type so the links don't have list item symbols */
-.header div ul {
+.header section ul {
     list-style-type: none;
 }
 
 /* Sets the list items in the header to inline-block display style and sets the left margin to 25px */
-.header div ul li {
+.header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
