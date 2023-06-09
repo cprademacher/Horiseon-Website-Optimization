@@ -1,13 +1,16 @@
+/* The all selector deleting the default padding and margin from the page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Making sure the background color of the body of the webpage is #d9dcd6 */
 body {
     background-color: #d9dcd6;
 }
 
+/* Sets the padding of the header, the font of its text, the background color, and color of its text */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Sets the h1 element in the header to 48 pixels and its display style as inline-block */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Sets the letters 'seo' in the header to a different color than the rest of the letters in the word */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Sets the header div's padding on top to 15px, right margin to 20px, floats the contents to the right, sets the text to 20px and set its font */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Takes away the default list style type so the links don't have list item symbols */
 .header div ul {
     list-style-type: none;
 }
 
+/* Sets the list items in the header to inline-block display style and sets the left margin to 25px */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets the links in the header to the color white and takes away the default decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets all p elements to have size 16px font */
 p {
     font-size: 16px;
 }
 
+/* Sets the large image to take up the full screen between the header and main content */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* Sets elements with the class of 'float-left' to have a right margin of 25px and to float left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Sets elements with the class of 'float-right' to have a left margin of 25px and to float right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Sets elements with the class of 'content' to have a left margin of 20px, a width of 75%, and a display style of inline block */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Sets the style of elements with the class of 'benefits' */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,55 +101,9 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* Sets the style of elements with the class of 'content-box' */
+.content-box {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,51 +112,18 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* Sets the style of img elements with the class of 'content' */
+.content img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* Sets the style of H2 elements with the class of 'content' */
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Sets the style of elements with the class of 'footer' */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +131,28 @@ p {
     text-align: center;
 }
 
+/* Sets the style of elements with the class of 'benefit-item' */
+.benefit-item {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+
+/* Sets the style of H3 elements with the class of 'benefit-item' */
+.benefit-item h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* Sets the style of img elements with the class of 'benefit-item' */
+.benefit-item img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Sets the style of H4 elements with the class of 'footer' */
 .footer h4 {
     font-size: 20px;
 }
