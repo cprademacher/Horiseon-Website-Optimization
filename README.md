@@ -15,21 +15,14 @@ I will install this project by utilizing GitHub pages to deploy the website to t
 
 ## Screenshots
 
-```md
+
 ![screenshot-1](assets/images/Screen%20Shot%202023-06-09%20at%201.00.45%20PM.png)
-```
 
-```md
+
+
 ![screenshot-2](assets/images/Screen%20Shot%202023-06-09%20at%201.00.55%20PM.png)
-```
 
-Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Link to deployed application
 
