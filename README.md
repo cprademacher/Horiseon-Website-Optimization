@@ -13,6 +13,9 @@ Provide a short description explaining the what, why, and how of your project. U
 
 I will install this project by utilizing GitHub pages to deploy the website to the internet.
 
+## Credit
+Source code came from the UT Coding Bootcamp staff.
+
 ## Screenshots
 
 
