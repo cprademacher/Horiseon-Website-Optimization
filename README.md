@@ -26,3 +26,4 @@ I will install this project by utilizing GitHub pages to deploy the website to t
 
 ## Link to deployed application
 
+https://cprademacher.github.io/Week-1-Challenge/
